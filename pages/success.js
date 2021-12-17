@@ -27,14 +27,14 @@ const Success = () => {
                 <ul className={styles.list}>
                     <li className={styles.listItem}>
                         <img className={styles.step} src='/images/step1.png' />
-                        <p className='text'>Зайдите в телеграм бот <a href='' className='link'>@orange.practicum.bot</a></p>
+                        <p className='text'>Зайдите в телеграм бот <a href='https://t.me/orange_webinars_bot' className='link'>@orange_webinars_bot</a></p>
                     </li>
                     <li className={styles.listItem}>
-                        <img className={styles.step} src='/images/step1.png' />
+                        <img className={styles.step} src='/images/step2.png' />
                         <p className='text'>Нажмите на кнопку <span className='text-bold'>/start</span></p>
                     </li>
                     <li className={styles.listItem}>
-                        <img className={styles.step} src='/images/step1.png' />
+                        <img className={styles.step} src='/images/step3.png' />
                         <p className='text'>Получите чек-лист <span className='text-bold'>«Как начать бизнес на посуточной аренде»</span></p>
                     </li>
                 </ul>

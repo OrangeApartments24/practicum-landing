@@ -61,6 +61,16 @@
     text-align: center;
 }
 
+.buttonLoading {
+    background-image: url('/icons/loading.svg');
+    background-size: 25px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .gift {
     grid-column: 4/5;
     grid-row: 1/3;

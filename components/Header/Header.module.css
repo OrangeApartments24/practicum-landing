@@ -139,6 +139,15 @@
     cursor: pointer;
 }
 
+.buttonLoading {
+    background-image: url('/icons/loading.svg');
+    background-size: 25px;
+    background-position: 17px center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
 .caption {
     grid-row: 3/4;
     grid-column: 6/10;

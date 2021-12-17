@@ -1,10 +1,38 @@
-
-import Image from 'next/image';
+import ym from 'react-yandex-metrika';
+import { useState } from 'react';
 import styles from './Header.module.css';
+import { useRouter } from 'next/router'
+import loadingIcon from '../../public/icons/loading.svg';
+import { sendLead }  from '../../utils/bitrix.js';
 
 const Header = () => {
 
-    // ym(86911334,'reachGoal','header__lead')
+    const [state, setState] = useState({
+        name: '',
+        phone: '',
+        loading: false
+    })
+    const router = useRouter();
+
+    const inputHandler = (e) => {
+        const prevState = {...state};
+        prevState[e.target.name] = e.target.value;
+        setState(prevState);
+    }
+
+    const formSubmitHandler = (e) => {
+        e.preventDefault();
+        setState({...state, loading: true});
+        sendLead(state).then(res => {
+            if(res.ok) { return res.json() }
+        }).then(data => {
+            ym(86911334,'reachGoal','header__lead');
+            router.push('/success')
+        }).catch(err => {
+            console.log('Err:' + err);
+        })
+
+    }
 
     return(
         <header className={styles.header}>
@@ -31,10 +59,12 @@ const Header = () => {
                     </li>
                 </ul>
             </div>
-            <form className={styles.form}>
-                <input className={styles.input} placeholder='Ваше имя' required minLength="2" />
-                <input className={styles.input} placeholder='Номер телефона' required minLength="2" />
-                <button className={styles.button}>Записаться</button>
+            <form onSubmit={formSubmitHandler} className={styles.form}>
+                <input value={state.name} onChange={inputHandler} name='name' className={styles.input} placeholder='Ваше имя' required minLength="2" />
+                <input value={state.phone} onChange={inputHandler} name='phone' className={styles.input} placeholder='Номер телефона' required minLength="2" />
+                <button className={`${styles.button} ${state.loading && styles.buttonLoading}`}>
+                    { !state.loading && "Записаться" }
+                </button>
             </form>
             <div className={styles.caption}>
                 <img src="/icons/instagram.svg" />

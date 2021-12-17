@@ -41,7 +41,7 @@ export default function Home() {
       <Invitement />
       <Call />
       <Footer />
-      <YMInitializer accounts={[86911334]} />
+      <YMInitializer accounts={[86911334]} options={{webvisor: true}} />
       <img height="1" width="1" style={{display: "none"}} src="https://www.facebook.com/tr?id=435091964749684&ev=PageView&noscript=1" />
       
     </>
