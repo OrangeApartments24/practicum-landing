@@ -32,7 +32,7 @@ export default function Home() {
       <Head>
         <title>Как построить бизнес в 2022 году с помощью краткосрочной аренды</title>
         <meta name="description" content="Как перестать жить от зарплаты до зарплаты и получать ежедневный доход до 33 000 ₽ / день; Как выйти на окупаемость за 3-4 месяца и не зависеть от «сезонности»; Как выйти из «оперативки» и на 3-й месяц получать стабильный доход от 100 000 ₽; Как не ограничивать свои амбиции и дойти до того финансового результата, который нужен именно Вам"></meta>
-        <meta name="facebook-domain-verification" content="8k7266pqfq27kno72zoeeagcxod37m" />
+        <meta name="facebook-domain-verification" content="8k7266pqfq27kno72zoeeagcxod37m"></meta>
       </Head>
       <Header />
       <Number />
