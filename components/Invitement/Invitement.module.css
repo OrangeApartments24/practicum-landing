@@ -1,0 +1,61 @@
+.invitement {
+    max-width: 1280px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 0 0 100px;
+}
+
+.video {
+    width: 680px;
+    height: 473px;
+}
+
+.heading {
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width: 1400px) {
+    .invitement {
+        margin: 50px 80px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .invitement {
+        flex-direction: column;
+    }
+    .video {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .invitement {
+        margin: 50px 40px;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .heading {
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .invitement {
+        margin-top: 0;
+        padding-bottom: 50px;
+    }
+    .video {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .invitement {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+}

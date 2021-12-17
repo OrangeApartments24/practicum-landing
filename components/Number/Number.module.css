@@ -1,0 +1,167 @@
+.number {
+    max-width: 1280px;
+    background: rgba(25, 124, 255, 0,1);
+    border-radius: 25px;
+    padding: 45px 80px;
+    margin: 0 auto;
+    background: #197CFF1A;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.content {
+    max-width: 720px;
+}
+
+.counter {
+    padding-top: 50px;
+}
+
+.counterItem {
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    color: #197CFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+    margin-right: 5px;
+}
+
+.counterItem:nth-child(3n) {
+    margin-right: 15px;
+}
+
+.counterSybmol {
+    color: white;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    color: white;
+    margin-left: 20px;
+}
+
+.caption {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.captionHeading {
+    max-width: 250px;
+    color: white;
+    margin: 0;
+}
+
+.captionDate {
+    max-width: 250px;
+    color: #FFFFFF80;
+    text-align: right;
+}
+
+@media screen and (max-width: 1440px) {
+    .number {
+        margin: 0 80px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .number {
+        flex-direction: column-reverse;
+    }
+    .heading {
+        text-align: center;
+    }
+    .counterItem {
+        font-size: 30px;
+    }
+    .counter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .counterSybmol {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .number {
+        margin: 0 40px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .counterItem {
+        font-size: 56px;
+        background: transparent;
+        padding: 5px;
+    }
+
+    .counter {
+        position: relative;
+        width: 100%;
+        padding: 23px 15px 15px;
+        margin-top: 30px;
+        border-radius: 15px;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .counterSybmol {
+        font-size: 24px;
+    }
+    .counterItem:nth-child(3n) {
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .counter {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background: transparent;
+        grid-gap: 10px;
+        box-sizing: border-box;
+    }
+    .number {
+        margin: 0;
+        padding: 60px 40px 40px;
+    }
+    .counterItem {
+        font-size: 40px;
+        border: 1px solid #197CFF;;
+        padding: 30px 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+    }
+    .counterSybmol {
+        grid-column: 1/4;
+        margin: 0;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 15px;
+    }
+    .caption {
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .captionHeading {
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .counterItem {
+        font-size: 40px
+    }
+}

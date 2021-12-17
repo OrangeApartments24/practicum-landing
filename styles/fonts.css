@@ -1,0 +1,54 @@
+
+@font-face {
+    font-family: 'Noto Sans Display';
+    src: url('../public/fonts/NotoSansDisplay/NotoSansDisplay-Thin.ttf');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Noto Sans Display';
+    src: url('../public/fonts/NotoSansDisplay/NotoSansDisplay-ExtraLight.ttf');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Noto Sans Display';
+    src: url('../public/fonts/NotoSansDisplay/NotoSansDisplay-Light.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Noto Sans Display';
+    src: url('../public/fonts/NotoSansDisplay/NotoSansDisplay-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Noto Sans Display';
+    src: url('../public/fonts/NotoSansDisplay/NotoSansDisplay-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Noto Sans Display';
+    src: url('../public/fonts/NotoSansDisplay/NotoSansDisplay-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Noto Sans Display';
+    src: url('../public/fonts/NotoSansDisplay/NotoSansDisplay-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Noto Sans Display';
+    src: url('../public/fonts/NotoSansDisplay/NotoSansDisplay-ExtraBold.ttf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Noto Sans Display';
+    src: url('../public/fonts/NotoSansDisplay/NotoSansDisplay-Black.ttf');
+    font-weight: 900;
+}
