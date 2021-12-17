@@ -1,5 +1,6 @@
 import styles from '../styles/success.module.css';
 import { YMInitializer } from 'react-yandex-metrika';
+import { useEffect } from 'react';
 
 const Success = () => {
 
@@ -39,6 +40,7 @@ const Success = () => {
                 </ul>
             </section>
             <img height="1" width="1" style={{display: "none"}} src="https://www.facebook.com/tr?id=435091964749684&ev=PageView&noscript=1" />
+            <YMInitializer accounts={[86911334]} />
         </>
     )
 }
