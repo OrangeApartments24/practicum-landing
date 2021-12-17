@@ -25,8 +25,13 @@ const Number = () => {
         }
     }, [inView])
 
+    const getRandomInt = (max) => {
+        return Math.floor(Math.random() * max);
+    }
+
     const renderNumber = useMemo(() => {
         return number.toString().split('').map((el, index) => {
+            if(index > 2) { return <span className={styles.counterItem} key={index}>{getRandomInt(9)}</span> }
             return <span className={styles.counterItem} key={index}>{el}</span>
         })
     }, [number])
@@ -34,10 +39,10 @@ const Number = () => {
     const dateOptions = { year: 'numeric', month: 'long', day: 'numeric' };
 
     return(
-        <section ref={ref} className={styles.number}>
+        <section className={styles.number}>
             <div className={styles.content}>
-                <h2 className={`heading-2 ${styles.heading}`}>Основано на собственой сети апарт-отелей Orange Apartments 24</h2>
-                <div className={styles.counter}>
+                <h2 className={`heading-2 ${styles.heading}`}>Основано на&nbsp;собственой сети апарт-отелей Orange Apartments&nbsp;24</h2>
+                <div ref={ref} className={styles.counter}>
                     { renderNumber }
 
                     <span className={styles.counterSybmol}>₽</span>

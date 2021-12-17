@@ -18,6 +18,7 @@
 
 .counter {
     padding-top: 50px;
+    box-sizing: border-box;
 }
 
 .counterItem {
@@ -126,42 +127,45 @@
 }
 
 @media screen and (max-width: 690px) {
-    .counter {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        background: transparent;
-        grid-gap: 10px;
-        box-sizing: border-box;
-    }
-    .number {
-        margin: 0;
-        padding: 60px 40px 40px;
-    }
+
     .counterItem {
-        font-size: 40px;
-        border: 1px solid #197CFF;;
-        padding: 30px 10px;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        margin: 0;
+        font-size: 42px;
     }
     .counterSybmol {
-        grid-column: 1/4;
-        margin: 0;
-        text-align: center;
-        font-size: 40px;
-        padding-top: 15px;
+        font-size: 42px;
     }
-    .caption {
-        flex-direction: column;
-        padding-top: 10px;
-    }
-    .captionHeading {
-        padding-bottom: 20px;
-        text-align: center;
-    }
+
+}   
+
+@media screen and (max-width: 520px) {
+
     .counterItem {
-        font-size: 40px
+        font-size: 38px;
+    }
+    .counterSybmol {
+        font-size: 38px;
+    }
+
+}   
+
+@media screen and (max-width: 470px) {
+
+    .counterItem {
+        font-size: 24px;
+        padding: 0;
+    }
+    .counterSybmol {
+        font-size: 24px;
+    }
+    .counterItem:nth-child(3n) {
+        margin-right: 10px;
+    }
+
+}   
+
+@media screen and (max-width: 390px) {
+    .number {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }

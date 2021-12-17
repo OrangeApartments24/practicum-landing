@@ -6,6 +6,7 @@ import Invitement from '../components/Invitement/Invitement';
 import Call from '../components/Call/Call';
 import Footer from '../components/Footer/Footer';
 import Head from 'next/head';
+import { YMInitializer } from 'react-yandex-metrika';
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Invitement />
       <Call />
       <Footer />
+      <YMInitializer accounts={[86911334]} />
     </>
   )
 }

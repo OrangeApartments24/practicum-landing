@@ -3,6 +3,9 @@ import Image from 'next/image';
 import styles from './Header.module.css';
 
 const Header = () => {
+
+    // ym(86911334,'reachGoal','header__lead')
+
     return(
         <header className={styles.header}>
             <img src="/images/logo.svg" className={styles.logo} />
@@ -35,7 +38,7 @@ const Header = () => {
             </form>
             <div className={styles.caption}>
                 <img src="/icons/instagram.svg" />
-                <p className={styles.captionText}><span className={styles.captionHeading}>Денис Соловьёв,</span> основатель сети апарт-отелей Orange Apartments 24</p>
+                <p className={styles.captionText}><span className={styles.captionHeading}>Денис Соловьёв,</span> основатель сети апарт&nbsp;-отелей Orange Apartments&nbsp;24</p>
             </div>
         </header>
     )

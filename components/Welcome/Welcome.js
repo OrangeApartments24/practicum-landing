@@ -6,14 +6,14 @@ const Welcome = () => {
     return(
         <section className={styles.welcome}>
             <div className={styles.content}>
-                <h2 className={`heading-2 ${styles.heading}`}>Здравствуйте, Я — Денис Соловьёв</h2>
-                <p className={`text ${styles.text}`}>Многодетный отец. Бизнесмен. Инвестор. Ваш путеповидетль в мире реального бизнеса</p>
+                <h2 className={`heading-2 ${styles.heading}`}>Здравствуйте, Я&nbsp;&mdash; Денис Соловьёв</h2>
+                <p className={`text ${styles.text}`}>Многодетный отец. Бизнесмен. Инвестор. Ваш путеповидетль в&nbsp;мире реального бизнеса</p>
 
                 <article className={styles.item}>
                     <img src='/icons/location-with-circle.svg' className={styles.itemIcon} />
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>Orange Apartments 24</h3>
-                        <p className={styles.itemText}>33 апарт-отеля в 4 городах за 7 месяцев</p>
+                        <p className={styles.itemText}>33&nbsp;апарт-отеля в&nbsp;4&nbsp;городах за&nbsp;7&nbsp;месяцев</p>
                     </div>
                 </article>
 
@@ -21,7 +21,7 @@ const Welcome = () => {
                     <img src='/icons/bitcoin.svg' className={styles.itemIcon} />
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>Фонд криптовалюты</h3>
-                        <p className={styles.itemText}>Более 50 инвесторов. 2 фермы по 500 карт</p>
+                        <p className={styles.itemText}>Более 50&nbsp;инвесторов.&nbsp;2&nbsp;фермы по&nbsp;500 карт</p>
                     </div>
                 </article>
 
@@ -29,7 +29,7 @@ const Welcome = () => {
                     <img src='/icons/investment.svg' className={styles.itemIcon} />
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>Инвестиции в недвижимость</h3>
-                        <p className={styles.itemText}>Выкуп комерческого и жилого фонда</p>
+                        <p className={styles.itemText}>Выкуп комерческого и&nbsp;жилого фонда</p>
                     </div>
                 </article>
 
@@ -37,7 +37,7 @@ const Welcome = () => {
                     <img src='/icons/land.svg' className={styles.itemIcon} />
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>Купля/продажа земли</h3>
-                        <p className={styles.itemText}>Смена статуса — увеличение стоимости</p>
+                        <p className={styles.itemText}>Смена статуса&nbsp;&mdash; увеличение стоимости</p>
                     </div>
                 </article>
 
@@ -45,7 +45,7 @@ const Welcome = () => {
                     <img src='/icons/taxi.svg' className={styles.itemIcon} />
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>Такси «Апельсин»</h3>
-                        <p className={styles.itemText}>Более 1000 машин в автопарке</p>
+                        <p className={styles.itemText}>Более 1000 машин в&nbsp;автопарке</p>
                     </div>
                 </article>
 
@@ -53,7 +53,7 @@ const Welcome = () => {
                     <img src='/icons/sushi.svg' className={styles.itemIcon} />
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>Доставка суши и пицц «Покенон»</h3>
-                        <p className={styles.itemText}>присутсвтие в 7 городах Подмосковья</p>
+                        <p className={styles.itemText}>присутсвтие в&nbsp;7&nbsp;городах Подмосковья</p>
                     </div>
                 </article>
 
