@@ -8,7 +8,25 @@ import Footer from '../components/Footer/Footer';
 import Head from 'next/head';
 import { YMInitializer } from 'react-yandex-metrika';
 
+import { useEffect } from 'react';
+
 export default function Home() {
+
+  useEffect(() => {
+
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '435091964749684');
+    fbq('track', 'PageView');
+
+  }, []);
+
   return (
     <>
       <Head>
@@ -23,6 +41,8 @@ export default function Home() {
       <Call />
       <Footer />
       <YMInitializer accounts={[86911334]} />
+      <img height="1" width="1" style={{display: "none"}} src="https://www.facebook.com/tr?id=435091964749684&ev=PageView&noscript=1" />
+      
     </>
   )
 }
