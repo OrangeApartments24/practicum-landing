@@ -16,6 +16,7 @@ const Success = () => {
         'https://connect.facebook.net/en_US/fbevents.js');
         fbq('init', '435091964749684');
         fbq('track', 'PageView');
+        fbq('track', 'Lead');
     
       }, []);
 
