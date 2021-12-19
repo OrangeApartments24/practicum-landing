@@ -67,7 +67,7 @@ const Header = () => {
                 </button>
             </form>
             <div className={styles.caption}>
-                <img src="/icons/instagram.svg" />
+                <a target="_blank" href="https://www.instagram.com/dv_solovev/"><img src="/icons/instagram.svg" /></a>
                 <p className={styles.captionText}><span className={styles.captionHeading}>Денис Соловьёв,</span> основатель сети апарт&nbsp;-отелей Orange Apartments&nbsp;24</p>
             </div>
         </header>
