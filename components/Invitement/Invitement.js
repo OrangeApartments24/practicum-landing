@@ -8,7 +8,7 @@ const Invitement = () => {
                 <source src="/invite.mp4" type='video/mp4;' />
             </video>
             <div className={styles.content}>
-                <h2 className={`heading-2 ${styles.heading}`}>Видео-приглашение</h2>
+                <h2 className={`heading-2 ${styles.heading}`}>Видеоприглашение</h2>
                 <p className={`text ${styles.text}`}>Дениса Соловьева&nbsp;&mdash; эксперта в&nbsp;краткосрочной аренде</p>
             </div>
         </section>

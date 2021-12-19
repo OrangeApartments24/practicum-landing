@@ -35,7 +35,7 @@ const Call = () => {
 
     return(
         <section className={styles.call}>
-            <h2 className={`heading-2 ${styles.heading}`}>Зарегистриуйтесь на&nbsp;бесплатный вебинар и&nbsp;начните свой бизнесв краткосрочной аренде</h2>
+            <h2 className={`heading-2 ${styles.heading}`}>Зарегистриуйтесь на&nbsp;бесплатный вебинар и&nbsp;начните свой бизнес в&nbsp;краткосрочной аренде</h2>
             <form onSubmit={formSubmitHandler} className={styles.form}>
                 <input value={state.name} onChange={inputHandler} className={styles.input} name="name" placeholder='Ваше имя' required minLength="2" />
                 <input value={state.phone} onChange={inputHandler}  className={styles.input} name="phone" placeholder='Номер телефона' required minLength="2" />
@@ -46,7 +46,7 @@ const Call = () => {
                     <img src='/icons/gift.svg' />
                     получите в&nbsp;подарок
                 </span>
-                <h3 className={styles.giftHeading}>Чек-лист &laquo;Как начать бизнесна посуточной аренде&raquo;</h3>
+                <h3 className={styles.giftHeading}>Чек-лист &laquo;Как начать бизнес на&nbsp;посуточной аренде&raquo;</h3>
             </div>
         </section>
     )
