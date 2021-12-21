@@ -3,7 +3,7 @@ import styles from './Call.module.css';
 import ym from 'react-yandex-metrika';
 import { useState } from 'react';
 import { useRouter } from 'next/router';
-import { sendLead } from '../../utils/bitrix';
+import { sendLead } from '../../utils/telegram';
 
 const Call = () => {
     const [state, setState] = useState({

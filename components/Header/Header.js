@@ -3,7 +3,7 @@ import { useState } from 'react';
 import styles from './Header.module.css';
 import { useRouter } from 'next/router'
 import loadingIcon from '../../public/icons/loading.svg';
-import { sendLead }  from '../../utils/bitrix.js';
+import { sendLead }  from '../../utils/telegram.js';
 
 const Header = () => {
 
