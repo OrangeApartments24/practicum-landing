@@ -7,7 +7,7 @@ export const sendLead = (data) => {
             },
             body: JSON.stringify({
                 "text": `Orange Webinars // Новый лид 🔥 \n\nИмя: ${data.name} \nТелефон: ${data.phone}`,
-                "chat_id": "476775027"
+                "chat_id": "147796272"
             })
     })
 
