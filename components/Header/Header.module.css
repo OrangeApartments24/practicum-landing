@@ -48,7 +48,7 @@
     display: grid;
     flex-direction: column;
     gap: 10px;
-    border-left: 1px solid #197CFF;
+    border-left: 1px solid #197cff;
     max-width: 500px;
     margin: 0;
 }
@@ -59,7 +59,7 @@
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0em;
-    text-align: left;   
+    text-align: left;
     color: white;
     margin: 0;
     padding: 35px 0;
@@ -116,11 +116,11 @@
 }
 
 .input::placeholder {
-    color: rgba(256, 256, 256, .5);
+    color: rgba(256, 256, 256, 0.5);
 }
 
 .input:focus {
-    border-color: #197CFF;;
+    border-color: #197cff;
 }
 
 .button {
@@ -131,8 +131,8 @@
     letter-spacing: 0em;
     text-align: left;
     color: white;
-    background: #197CFF;
-    padding: 22px 26px 20px;
+    background: #197cff;
+    padding: 19px 26px 20px;
     border: none;
     border-radius: 15px;
     align-items: center;
@@ -229,7 +229,6 @@
         text-align: center;
     }
 }
-
 
 @media screen and (max-width: 600px) {
     .heading {

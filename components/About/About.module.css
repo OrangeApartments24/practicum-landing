@@ -25,15 +25,15 @@
 .itemHeading {
     color: white;
     margin: 0;
-    border: 1px solid #197CFF;
+    border: 1px solid #197cff;
     padding: 25px 30px 23px;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 28px;
     letter-spacing: 0em;
     text-align: center;
-    color: #197CFF;
+    color: #197cff;
     border-radius: 50px;
 }
 
