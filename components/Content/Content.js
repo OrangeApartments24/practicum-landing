@@ -81,14 +81,7 @@ const Content = () => {
                         </h3>
                     </div>
                 </article>
-                <article className={styles.item}>
-                    <div className={styles.itemContent}>
-                        <h3 className={styles.itemHeading}>
-                            Выборочный приезд Дениса лично к&nbsp;участникам и
-                            проведение консультации по&nbsp;месту
-                        </h3>
-                    </div>
-                </article>
+
                 <article className={styles.item}>
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>

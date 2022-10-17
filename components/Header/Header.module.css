@@ -1,9 +1,9 @@
 .header {
     max-width: 1440px;
     margin: 0 auto;
-    background: url('/images/denis.jpg');
+    background: url('/images/denis.png');
     background-size: contain;
-    background-position: top right;
+    background-position: bottom right;
     background-repeat: no-repeat;
     padding: 50px 0 50px 80px;
     display: grid;
@@ -23,7 +23,7 @@
     align-self: center;
     justify-self: end;
     grid-row: 1/2;
-    color: white;
+    color: black;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -37,6 +37,7 @@
 
 .heading {
     padding-top: 10px;
+    color: black;
 }
 
 .content {
@@ -48,7 +49,7 @@
     display: grid;
     flex-direction: column;
     gap: 10px;
-    border-left: 1px solid #197cff;
+    border-left: 1px solid #efa30e;
     max-width: 500px;
     margin: 0;
 }
@@ -60,7 +61,7 @@
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
-    color: white;
+    color: black;
     margin: 0;
     padding: 35px 0;
 }
@@ -74,7 +75,7 @@
     text-align: left;
     padding: 0 0 0 30px;
     position: relative;
-    color: white;
+    color: black;
     list-style: none;
     margin: 0;
 }
@@ -85,6 +86,7 @@
     left: 0;
     top: 0;
     background: url('/icons/fire.png');
+    filter: contrast(0);
     background-size: 17px 22px;
     background-position: center;
     background-repeat: no-repeat;
@@ -101,7 +103,7 @@
 }
 
 .input {
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 15px;
     padding: 23px 19px 22px;
     font-size: 18px;
@@ -111,16 +113,16 @@
     letter-spacing: 0em;
     text-align: left;
     background: transparent;
-    color: white;
+    color: black;
     outline: none;
 }
 
 .input::placeholder {
-    color: rgba(256, 256, 256, 0.5);
+    color: rgba(0, 0, 0, 0.3) !important;
 }
 
 .input:focus {
-    border-color: #197cff;
+    border-color: #efa30e;
 }
 
 .button {
@@ -131,7 +133,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: white;
-    background: #197cff;
+    background: #efa30e;
     padding: 19px 26px 20px;
     border: none;
     border-radius: 15px;
@@ -169,7 +171,7 @@
 }
 
 .captionText {
-    color: white;
+    color: black;
     margin: 0;
     font-size: 16px;
     line-height: 20px;
@@ -177,9 +179,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .header {
-        background-position: calc(100% + 200px) 0;
-    }
     .caption {
         grid-column: 4/10;
     }
@@ -212,7 +211,7 @@
         padding: 50px 40px;
     }
     .header {
-        background-position: right top;
+        background-position: calc(100% + 100px) bottom;
     }
 }
 
@@ -223,10 +222,12 @@
     }
     .input {
         width: 100%;
+        z-index: -1;
     }
     .button {
         width: 100%;
         text-align: center;
+        z-index: -1;
     }
 }
 
@@ -241,7 +242,8 @@
 
 @media screen and (max-width: 400px) {
     .header {
-        background-position: calc(100% + 100px) 0;
+        background-position: 100px bottom;
+        padding-right: 0;
     }
     .list {
         padding: 0;

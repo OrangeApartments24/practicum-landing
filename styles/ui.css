@@ -1,73 +1,78 @@
 .heading-1 {
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 50px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: white;
-  margin: 0;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    margin: 0;
 }
 
 .heading-1-light {
-  font-weight: 300;
+    font-weight: 300;
 }
 
 @media screen and (max-width: 500px) {
-  .heading-1 {
-    font-size: 35px;
-    line-height: 45px;
-  }
+    .heading-1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
 }
 
 @media screen and (max-width: 400px) {
-  .heading-1 {
-    font-size: 30px;
-    line-height: 40px;
-  }
+    .heading-1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
 }
 
 .heading-2 {
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 50px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: white;
-  margin: 0;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    margin: 0;
 }
 
 @media screen and (max-width: 500px) {
-  .heading-2 {
-    font-size: 28px;
-    line-height: 38px;
-  }
+    .heading-2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
 }
 
 .text {
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
-  letter-spacing: 0em;
-  color: white;
-  margin: 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: black;
+    margin: 0;
 }
 
 .text-bold {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 .link {
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #197CFF;
-  text-decoration-color: rgba(25, 124, 255, 0.33);
-  text-underline-offset: 3px;
-  cursor: pointer;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #efa30e;
+    text-decoration-color: rgba(241, 132, 15, 0.33);
+    text-underline-offset: 5px;
+    cursor: pointer;
+    cursor: pointer;
+}
+
+.link * {
+    cursor: pointer;
 }

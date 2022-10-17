@@ -4,7 +4,7 @@ body {
     min-width: 100%;
     overflow-x: hidden;
     font-family: 'Noto Sans Display', sans-serif;
-    background: black;
+    background: #fff9ed;
     -webkit-font-smoothing: antialiased;
     -moz-font-smooth: grayscale;
 }

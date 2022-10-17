@@ -26,7 +26,7 @@
 
 .item {
     display: flex;
-    border: 1px solid #FFFFFF40;
+    border: 1px solid #efa30e;
     padding: 17px 37px 17px 0;
     border-radius: 25px;
     box-sizing: border-box;
@@ -41,7 +41,7 @@
 }
 
 .itemHeading {
-    color: white;
+    color: black;
     margin: 0;
     font-size: 20px;
     font-style: normal;
@@ -53,7 +53,7 @@
 }
 
 .itemText {
-    color: white;
+    color: black;
     margin: 0;
     font-size: 16px;
     font-style: normal;
@@ -67,14 +67,14 @@
     position: relative;
     right: -50px;
     width: 775px;
-
+    object-fit: contain;
 }
 
 @media screen and (max-width: 800px) {
     .welcome {
         flex-direction: column-reverse;
         margin-top: -400px;
-        padding: 0 40px 50px;
+        padding: 0 20px 50px;
     }
     .content {
         max-width: 100%;

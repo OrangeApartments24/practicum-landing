@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 860px) {
     .invitement {
-        margin: 50px 40px;
+        margin: 50px 20px;
         align-items: flex-start;
         gap: 10px;
     }

@@ -3,7 +3,7 @@
     margin: 0 auto;
     padding: 50px 70px;
     box-sizing: border-box;
-    background: #C4C4C41A;
+    background: #c4c4c41a;
     border-radius: 25px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -22,7 +22,7 @@
 }
 
 .input {
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 15px;
     padding: 23px 19px 22px;
     font-size: 18px;
@@ -32,16 +32,19 @@
     letter-spacing: 0em;
     text-align: left;
     background: transparent;
-    color: white;
+    color: black;
     outline: none;
+}
+.input::placeholder {
+    color: rgba(0, 0, 0, 0.3) !important;
 }
 
 .input::placeholder {
-    color: rgba(256, 256, 256, .5);
+    color: rgba(256, 256, 256, 0.5);
 }
 
 .input:focus {
-    border-color: #197CFF;;
+    border-color: #efa30e;
 }
 
 .button {
@@ -52,7 +55,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: white;
-    background: #197CFF;
+    background: #efa30e;
     padding: 22px 26px 20px;
     border: none;
     border-radius: 15px;
@@ -74,11 +77,11 @@
 .gift {
     grid-column: 4/5;
     grid-row: 1/3;
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid #FFFFFF40;
+    border: 1px solid #ffffff40;
     padding: 28px;
     box-sizing: border-box;
     border-radius: 25px;
@@ -88,7 +91,7 @@
     display: flex;
     align-items: center;
     gap: 14px;
-    color: #197CFF;
+    color: #efa30e;
 }
 
 .giftHeading {

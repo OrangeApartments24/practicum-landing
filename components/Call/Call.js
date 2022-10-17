@@ -39,8 +39,8 @@ const Call = () => {
     return (
         <section className={styles.call}>
             <h2 className={`heading-2 ${styles.heading}`}>
-                Стоимость участия — 33 000 ₽, <br />
-                далее 1000 ₽ — в месяц
+                Стоимость участия — 29 900 ₽, <br />
+                далее 990 ₽ — в месяц
             </h2>
             <form onSubmit={formSubmitHandler} className={styles.form}>
                 {/* <input

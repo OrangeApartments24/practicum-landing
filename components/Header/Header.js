@@ -49,6 +49,7 @@ const Header = () => {
                     Присоединитесь к&nbsp;сообществу профессионалов в&nbsp;сфере
                     посуточной аренды
                     <span className='heading-1-light'>
+                        {' '}
                         и&nbsp;увеличьте свой доход уже через месяц
                     </span>
                 </h1>
@@ -94,7 +95,7 @@ const Header = () => {
                     {!state.loading && 'Подбронее'}
                 </button>
             </form>
-            <div className={styles.caption}>
+            {/* <div className={styles.caption}>
                 <a
                     target='_blank'
                     rel='noreferrer'
@@ -108,7 +109,7 @@ const Header = () => {
                     </span>{' '}
                     основатель сети апарт&nbsp;-отелей Orange Apartments&nbsp;24
                 </p>
-            </div>
+            </div> */}
         </header>
     );
 };

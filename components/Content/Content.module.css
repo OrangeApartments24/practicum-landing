@@ -27,7 +27,7 @@
 .item {
     width: 100%;
     display: flex;
-    border: 1px solid #ffffff40;
+    border: 1px solid black;
     padding: 24px;
     border-radius: 25px;
     box-sizing: border-box;
@@ -42,11 +42,11 @@
 }
 
 .itemHeading {
-    color: white;
+    color: black;
     margin: 0;
     font-size: 20px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 600;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
@@ -54,7 +54,7 @@
 }
 
 .itemText {
-    color: white;
+    color: black;
     margin: 0;
     font-size: 16px;
     font-style: normal;
@@ -87,6 +87,10 @@
 }
 
 @media screen and (max-width: 740px) {
+    .base {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .content {
         display: flex;
         flex-direction: column;
