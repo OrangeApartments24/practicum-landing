@@ -51,8 +51,8 @@ const Number = () => {
         <section className={styles.number}>
             <div className={styles.content}>
                 <h2 className={`heading-2 ${styles.heading}`}>
-                    Мы&nbsp;&mdash; практики, открывшие собственную сеть
-                    апарт-отелей Orange Apartments&nbsp;24
+                    Мы&nbsp;&mdash; практики, открывшие за&nbsp;год собственную
+                    сеть апарт-отелей Orange Apartments&nbsp;24
                 </h2>
                 <div ref={ref} className={styles.counter}>
                     {renderNumber}

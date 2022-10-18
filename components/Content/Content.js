@@ -18,7 +18,7 @@ const Content = () => {
                             Все участники могут приехать к&nbsp;нам
                             на&nbsp;1&nbsp;день БЕСПЛАТНО, прожить
                             в&nbsp;квартире, посмотреть работу сотрудников
-                            и&nbsp;провести встречу с&nbsp;Денисом
+                            и&nbsp;провести встречу с&nbsp;Денисом Соловьевым
                         </h3>
                     </div>
                 </article>
@@ -26,7 +26,7 @@ const Content = () => {
                 <article className={styles.item}>
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
-                            Ваши квартиры будут на&nbsp;нашем сайте,с вашим
+                            Ваши квартиры будут на&nbsp;нашем сайте,с Вашим
                             номером телефона
                         </h3>
                         <p className={styles.itemText}>
@@ -40,13 +40,13 @@ const Content = () => {
                 <article className={styles.item}>
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
-                            Одна часовая консультация с&nbsp;Денисом
+                            Одна часовая консультация с&nbsp;Денисом Соловьевым
                             по&nbsp;видео
                         </h3>
                         <p className={styles.itemText}>
                             (для тех,кто не&nbsp;состоит в&nbsp;чате
-                            консультации предлагаются от&nbsp;5000₽
-                            до&nbsp;30000₽)
+                            консультации предлагаются от&nbsp;5.000₽
+                            до&nbsp;30.000₽)
                         </p>
                     </div>
                 </article>
@@ -55,10 +55,11 @@ const Content = () => {
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
                             Получение оперативных консультаций по&nbsp;ЛЮБЫМ
-                            проблемам и&nbsp;вопросам от&nbsp;нашей команды
+                            проблемам и&nbsp;вопросам у&nbsp;наших специалистов
                         </h3>
                         <p className={styles.itemText}>
-                            (вы&nbsp;экономите свое время для решения проблемы)
+                            (вы&nbsp;экономите свое время и&nbsp;деньги для
+                            решения проблемы)
                         </p>
                     </div>
                 </article>
@@ -70,14 +71,18 @@ const Content = () => {
                             Расходных материалов/Текстиля
                             и&nbsp;т.д.&nbsp;по&nbsp;оптовым ценам
                         </h3>
+                        <p className={styles.itemText}>
+                            Скидки от&nbsp;20&nbsp;до&nbsp;30%
+                            в&nbsp;зависимости от&nbsp;объёма
+                        </p>
                     </div>
                 </article>
 
                 <article className={styles.item}>
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
-                            Возможность оперативно делиться с&nbsp;гостями по
-                            отдельной удобной форме
+                            Возможность оперативно делиться гостями по отдельной
+                            удобной форме
                         </h3>
                     </div>
                 </article>
@@ -85,7 +90,7 @@ const Content = () => {
                 <article className={styles.item}>
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
-                            Выборочный приезд Дениса лично к&nbsp;участникам и
+                            Приезд Дениса Соловьева лично к&nbsp;участникам и
                             проведение консультации по&nbsp;месту
                         </h3>
                         <p className={styles.itemText}>
@@ -100,6 +105,11 @@ const Content = () => {
                             Участие в&nbsp;дальнейшем развитии компании путем
                             инвестиций в&nbsp;приложение и&nbsp;долевое участие
                         </h3>
+                        <p className={styles.itemText}>
+                            От&nbsp;22&nbsp;до&nbsp;50% годовых,
+                            в&nbsp;зависимости от&nbsp;выбранного направления
+                            инвестирования
+                        </p>
                     </div>
                 </article>
                 <article className={styles.item}>
@@ -114,9 +124,9 @@ const Content = () => {
                 <article className={styles.item}>
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
-                            Проведение 4-8 прямых эфиров для обсуждения текущей
-                            ситуации,а также ответы на&nbsp;вопросы лично
-                            от&nbsp;Дениса
+                            Проведение 4-8 прямых эфиров в месяц для обсуждения
+                            текущей ситуации,а также ответы на&nbsp;вопросы
+                            лично от&nbsp;Дениса Соловьева
                         </h3>
                     </div>
                 </article>
@@ -132,10 +142,12 @@ const Content = () => {
                 <article className={styles.item}>
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
-                            Скидочная стоимость 990₽ в&nbsp;месяц
+                            Разовый платёж за&nbsp;участие &nbsp;&mdash;
+                            29&nbsp;900&nbsp;₽, далее 990&nbsp;₽&nbsp;&mdash;
+                            в&nbsp;месяц
                         </h3>
                         <p className={styles.itemText}>
-                            (вы&nbsp;не&nbsp;ничего доплачивать для того,чтобы
+                            (вам не&nbsp;нужно ничего доплачивать для того,чтобы
                             оставаться в&nbsp;данном чате)
                         </p>
                     </div>
@@ -158,19 +170,18 @@ const Content = () => {
                 <article className={styles.item}>
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
-                            Живые встречи в&nbsp;Москве/Питере и&nbsp;других
-                            городах при должном интересе к&nbsp;данному
-                            направлению
+                            Встречи Offline в&nbsp;Москве/Питере и&nbsp;других
+                            городах, когда Денис Соловьёв приезжает в&nbsp;этот
+                            город
                         </h3>
                     </div>
                 </article>
                 <article className={styles.item}>
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
-                            Получение оперативной информации,как наша команда
-                            реагирует на&nbsp;те&nbsp;или иные изменения
-                            в&nbsp;мире Посуточной аренды,чтобы вы&nbsp;могли
-                            принять правильное решение в критические ситуации
+                            Получение оперативной информации о&nbsp;изменениях
+                            на юридическом и&nbsp;закономательном поле, чтобы
+                            принять правильное решение
                         </h3>
                     </div>
                 </article>
@@ -218,15 +229,11 @@ const Content = () => {
                             (в&nbsp;случае развития и&nbsp;сотрудничества
                             с&nbsp;другими компаниями)
                         </p>
-                    </div>
-                </article>
-                <article className={styles.item}>
-                    <div className={styles.itemContent}>
-                        <h3 className={styles.itemHeading}>
+                        <p className={styles.itemText}>
                             К&nbsp;примеру-мы начинаем напрямую сотрудничать с
                             сервисами,вы получаете дополнительные скидки
-                            на&nbsp;их продукцию!
-                        </h3>
+                            на&nbsp;их&nbsp;продукцию!
+                        </p>
                     </div>
                 </article>
             </div>

@@ -63,7 +63,9 @@ const Welcome = () => {
                             Купля/продажа земли
                         </h3>
                         <p className={styles.itemText}>
-                            Смена статуса&nbsp;&mdash; увеличение стоимости
+                            Смена статуса&nbsp;&mdash; увеличение стоимости.
+                            Покупка от&nbsp;20&nbsp;до&nbsp;100&nbsp;гекторов,
+                            продажа&nbsp;&mdash; малыми участками
                         </p>
                     </div>
                 </article>
@@ -73,7 +75,8 @@ const Welcome = () => {
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>Такси «Апельсин»</h3>
                         <p className={styles.itemText}>
-                            Более 1000 машин в&nbsp;автопарке
+                            Более 3000 машин привлечено, более 100&nbsp;&mdash;
+                            в собственном автопарке
                         </p>
                     </div>
                 </article>
@@ -85,7 +88,8 @@ const Welcome = () => {
                             Доставка пиццы и суши «Покенон»
                         </h3>
                         <p className={styles.itemText}>
-                            присутствие в&nbsp;7&nbsp;городах Подмосковья
+                            присутствие в&nbsp;15&nbsp;городах и&nbsp;населённых
+                            пунктов Подмосковья
                         </p>
                     </div>
                 </article>

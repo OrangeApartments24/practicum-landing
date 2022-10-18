@@ -39,8 +39,8 @@ const Call = () => {
     return (
         <section className={styles.call}>
             <h2 className={`heading-2 ${styles.heading}`}>
-                Стоимость участия — 29 900 ₽, <br />
-                далее 990 ₽ — в месяц
+                Стоимость участия&nbsp;&mdash; 29&nbsp;900&nbsp;₽, <br />
+                далее 990&nbsp;₽&nbsp;&mdash; в&nbsp;месяц
             </h2>
             <form onSubmit={formSubmitHandler} className={styles.form}>
                 {/* <input
@@ -66,7 +66,7 @@ const Call = () => {
                         state.loading && styles.buttonLoading
                     }`}
                 >
-                    {!state.loading && 'Записаться'}
+                    {!state.loading && 'Записаться или задать вопрос'}
                 </button>
             </form>
             {/* <div className={styles.gift}>
