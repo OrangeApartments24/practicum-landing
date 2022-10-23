@@ -37,12 +37,11 @@
 }
 
 .counterSybmol {
-    color: black;
-    font-size: 36px;
+    color: white;
+    font-size: 42px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 28px;
-    color: black;
     margin-left: 20px;
 }
 

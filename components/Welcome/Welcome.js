@@ -8,8 +8,8 @@ const Welcome = () => {
                     Ваш эксперт. Денис&nbsp;Соловьёв
                 </h2>
                 <p className={`text ${styles.text}`}>
-                    Многодетный отец. Бизнесмен. Инвестор. Ваш&nbsp;путеводитель
-                    в&nbsp;мире реального бизнеса
+                    Многодетный отец. Бизнесмен. Инвестор. Реализовано более 6
+                    крупных проектов:
                 </p>
 
                 <article className={styles.item}>
@@ -22,7 +22,7 @@ const Welcome = () => {
                             Orange Apartments 24
                         </h3>
                         <p className={styles.itemText}>
-                            50&nbsp;апарт-отеля в&nbsp;4&nbsp;городах
+                            50&nbsp;апарт-отеля в&nbsp;3&nbsp;городах
                             за&nbsp;1&nbsp;год
                         </p>
                     </div>

@@ -11,11 +11,17 @@ const Call = () => {
         loading: false,
     });
     const router = useRouter();
+    const [isPromocode, setIsPromocode] = useState(false);
 
     const inputHandler = (e) => {
         const prevState = { ...state };
         prevState[e.target.name] = e.target.value;
         setState(prevState);
+    };
+
+    const promocodeChangeHandler = (e) => {
+        setIsPromocode(e.target.value.toLowerCase() === 'orangepracticum');
+        // e.target.value
     };
 
     const formSubmitHandler = (e) => {
@@ -37,21 +43,28 @@ const Call = () => {
     };
 
     return (
-        <section className={styles.call}>
+        <section className={styles.call} id='call'>
             <h2 className={`heading-2 ${styles.heading}`}>
-                Стоимость участия&nbsp;&mdash; 29&nbsp;900&nbsp;₽, <br />
-                далее 990&nbsp;₽&nbsp;&mdash; в&nbsp;месяц
+                Стоимость участия&nbsp;&mdash;{' '}
+                {isPromocode ? (
+                    <>29&nbsp;900&nbsp;₽</>
+                ) : (
+                    <>59&nbsp;900&nbsp;₽</>
+                )}
+                , далее 990&nbsp;₽&nbsp;&mdash; в&nbsp;месяц
             </h2>
+            <p>
+                Участникам от RealtyCalendar — скидка 50 процентов по промокоду
+            </p>
             <form onSubmit={formSubmitHandler} className={styles.form}>
-                {/* <input
-                    value={state.name}
-                    onChange={inputHandler}
+                <input
+                    onChange={promocodeChangeHandler}
                     className={styles.input}
-                    name='name'
-                    placeholder='Ваше имя'
+                    name='promocode'
+                    placeholder='Промокод (скидка 50%)'
                     required
                     minLength='2'
-                /> */}
+                />
                 <input
                     value={state.phone}
                     onChange={inputHandler}

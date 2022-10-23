@@ -56,19 +56,26 @@ const Header = () => {
                 <h2 className={styles.listHeading}>Вы получите:</h2>
                 <ul className={styles.list}>
                     <li className={styles.listItem}>
-                        Подтвержку и советы от экспертов в сфере посуточной
-                        аренды
+                        Поддержку и советы от эксперта в сфере посуточной аренды
                     </li>
                     <li className={styles.listItem}>
-                        Беслпатное привлечение клиентов через сайт Orange
-                        Apartments 24
+                        Решение как построить бизнес без участия в операционной
+                        деятельности
                     </li>
                     <li className={styles.listItem}>
                         Личную консультацию от Дениса Соловьева
                     </li>
+                    <li className={styles.listItem}>
+                        Вся школа Orange Practicum <br />— сразу в одном месте
+                    </li>
                 </ul>
             </div>
-            <form onSubmit={formSubmitHandler} className={styles.form}>
+            <form
+                onSubmit={() => {
+                    router.push('#number');
+                }}
+                className={styles.form}
+            >
                 {/* <input
                     value={state.name}
                     onChange={inputHandler}
@@ -78,7 +85,7 @@ const Header = () => {
                     required
                     minLength='2'
                 /> */}
-                <input
+                {/* <input
                     value={state.phone}
                     onChange={inputHandler}
                     name='phone'
@@ -86,14 +93,8 @@ const Header = () => {
                     placeholder='Номер телефона'
                     required
                     minLength='2'
-                />
-                <button
-                    className={`${styles.button} ${
-                        state.loading && styles.buttonLoading
-                    }`}
-                >
-                    {!state.loading && 'Подбронее'}
-                </button>
+                /> */}
+                <button className={`${styles.button}`}>Подбронее</button>
             </form>
             {/* <div className={styles.caption}>
                 <a

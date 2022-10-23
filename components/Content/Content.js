@@ -16,9 +16,12 @@ const Content = () => {
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
                             Все участники могут приехать к&nbsp;нам
-                            на&nbsp;1&nbsp;день БЕСПЛАТНО, прожить
-                            в&nbsp;квартире, посмотреть работу сотрудников
-                            и&nbsp;провести встречу с&nbsp;Денисом Соловьевым
+                            на&nbsp;1&nbsp;день, прожить в&nbsp;квартире,
+                            посмотреть работу сотрудников и&nbsp;провести
+                            встречу с&nbsp;Денисом Соловьевым
+                            <p className={styles.itemText}>
+                                (экономия 10.000₽—20.000₽)
+                            </p>
                         </h3>
                     </div>
                 </article>
@@ -81,8 +84,7 @@ const Content = () => {
                 <article className={styles.item}>
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
-                            Возможность оперативно делиться гостями по отдельной
-                            удобной форме
+                            Возможность оперативно делиться гостями
                         </h3>
                     </div>
                 </article>
@@ -95,7 +97,7 @@ const Content = () => {
                         </h3>
                         <p className={styles.itemText}>
                             (для тех,кто не&nbsp;состоит в&nbsp;чате этот пункт
-                            предлагается от&nbsp;50.000₽)
+                            предлагается от&nbsp;100.000₽)
                         </p>
                     </div>
                 </article>
@@ -155,8 +157,8 @@ const Content = () => {
                 <article className={styles.item}>
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
-                            Поиск квартир в&nbsp;субаренду нашим выделенным
-                            сотрудником в&nbsp;вашем городе
+                            Поиск квартир в&nbsp;субаренду (от 300 участиков)
+                            нашим выделенным сотрудником в&nbsp;вашем городе
                         </h3>
                         <p className={styles.itemText}>
                             (Вам останется только подписать договор с

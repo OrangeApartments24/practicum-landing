@@ -48,7 +48,7 @@ const Number = () => {
     const dateOptions = { year: 'numeric', month: 'long', day: 'numeric' };
 
     return (
-        <section className={styles.number}>
+        <section className={styles.number} id='number'>
             <div className={styles.content}>
                 <h2 className={`heading-2 ${styles.heading}`}>
                     Мы&nbsp;&mdash; практики, открывшие за&nbsp;год собственную
@@ -56,8 +56,8 @@ const Number = () => {
                 </h2>
                 <div ref={ref} className={styles.counter}>
                     {renderNumber}
-
-                    <span className={styles.counterSybmol}>₽</span>
+                    <span className={styles.counterItem}>₽</span>
+                    {/* <span className={styles.counterSybmol}>₽</span> */}
                 </div>
                 <div className={styles.caption}>
                     <p className={styles.captionHeading}>
