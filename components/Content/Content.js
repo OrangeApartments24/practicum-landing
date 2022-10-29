@@ -141,19 +141,7 @@ const Content = () => {
                         </h3>
                     </div>
                 </article>
-                <article className={styles.item}>
-                    <div className={styles.itemContent}>
-                        <h3 className={styles.itemHeading}>
-                            Разовый платёж за&nbsp;участие &nbsp;&mdash;
-                            29&nbsp;900&nbsp;₽, далее 990&nbsp;₽&nbsp;&mdash;
-                            в&nbsp;месяц
-                        </h3>
-                        <p className={styles.itemText}>
-                            (вам не&nbsp;нужно ничего доплачивать для того,чтобы
-                            оставаться в&nbsp;данном чате)
-                        </p>
-                    </div>
-                </article>
+
                 <article className={styles.item}>
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
