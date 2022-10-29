@@ -15,6 +15,18 @@ const Content = () => {
                 <article className={styles.item}>
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
+                            Не более 20-30 новых участников каждый месяц
+                            <p className={styles.itemText}>
+                                (ограниченный набор связан с тем, чтобы больше
+                                уделить времени каждому участнику чата)
+                            </p>
+                        </h3>
+                    </div>
+                </article>
+
+                <article className={styles.item}>
+                    <div className={styles.itemContent}>
+                        <h3 className={styles.itemHeading}>
                             Все участники могут приехать к&nbsp;нам
                             на&nbsp;1&nbsp;день, прожить в&nbsp;квартире,
                             посмотреть работу сотрудников и&nbsp;провести
@@ -59,6 +71,7 @@ const Content = () => {
                         <h3 className={styles.itemHeading}>
                             Получение оперативных консультаций по&nbsp;ЛЮБЫМ
                             проблемам и&nbsp;вопросам у&nbsp;наших специалистов
+                            (неоценимо ₽)
                         </h3>
                         <p className={styles.itemText}>
                             (вы&nbsp;экономите свое время и&nbsp;деньги для
@@ -145,8 +158,9 @@ const Content = () => {
                 <article className={styles.item}>
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
-                            Поиск квартир в&nbsp;субаренду (от 300 участиков)
-                            нашим выделенным сотрудником в&nbsp;вашем городе
+                            Поиск квартир в&nbsp;субаренду
+                            (от&nbsp;300&nbsp;участиков чата) нашим выделенным
+                            сотрудником в&nbsp;вашем городе
                         </h3>
                         <p className={styles.itemText}>
                             (Вам останется только подписать договор с
@@ -178,7 +192,7 @@ const Content = () => {
                 <article className={styles.item}>
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
-                            Вы&nbsp;можете получить бонус в&nbsp;10000₽!
+                            Вы&nbsp;можете получить бонус в&nbsp;5.000₽–10.000₽!
                         </h3>
                         <p className={styles.itemText}>
                             (в&nbsp;тот&nbsp;же день вам направляется данная
@@ -220,7 +234,7 @@ const Content = () => {
                             с&nbsp;другими компаниями)
                         </p>
                         <p className={styles.itemText}>
-                            К&nbsp;примеру-мы начинаем напрямую сотрудничать с
+                            К&nbsp;примеру — мы начинаем напрямую сотрудничать с
                             сервисами,вы получаете дополнительные скидки
                             на&nbsp;их&nbsp;продукцию!
                         </p>

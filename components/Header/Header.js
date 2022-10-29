@@ -47,7 +47,7 @@ const Header = () => {
             <div className={styles.content}>
                 <h1 className={`heading-1 ${styles.heading}`}>
                     Присоединитесь к&nbsp;сообществу профессионалов в&nbsp;сфере
-                    посуточной аренды
+                    краткосрочной аренды
                     <span className='heading-1-light'>
                         {' '}
                         и&nbsp;увеличьте свой доход уже через месяц
@@ -56,7 +56,7 @@ const Header = () => {
                 <h2 className={styles.listHeading}>Вы получите:</h2>
                 <ul className={styles.list}>
                     <li className={styles.listItem}>
-                        Поддержку и советы от эксперта в сфере посуточной аренды
+                        Поддержку и советы от эксперта и его команды
                     </li>
                     <li className={styles.listItem}>
                         Решение как построить бизнес без участия в операционной
@@ -71,10 +71,11 @@ const Header = () => {
                 </ul>
             </div>
             <form
-                onSubmit={() => {
-                    router.push('#number');
-                }}
                 className={styles.form}
+                onSubmit={(e) => {
+                    e.preventDefault();
+                    window.location = '#number';
+                }}
             >
                 {/* <input
                     value={state.name}

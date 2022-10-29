@@ -5,12 +5,18 @@ const Welcome = () => {
         <section className={styles.welcome}>
             <div className={styles.content}>
                 <h2 className={`heading-2 ${styles.heading}`}>
-                    Ваш эксперт. Денис&nbsp;Соловьёв
+                    Ваш эксперт Денис&nbsp;Соловьёв
                 </h2>
                 <p className={`text ${styles.text}`}>
-                    Многодетный отец. Бизнесмен. Инвестор. Реализовано более 6
-                    крупных проектов:
+                    Многодетный отец. Бизнесмен. Инвестор.
                 </p>
+
+                <h3
+                    className={styles.itemHeading}
+                    style={{ gridColumn: '-1/1' }}
+                >
+                    Реализовано более 6 крупных проектов:
+                </h3>
 
                 <article className={styles.item}>
                     <img
@@ -75,8 +81,8 @@ const Welcome = () => {
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>Такси «Апельсин»</h3>
                         <p className={styles.itemText}>
-                            Более 3000 машин привлечено, более 100&nbsp;&mdash;
-                            в собственном автопарке
+                            Более 3000 машин привлечено, до 100&nbsp;&mdash; в
+                            собственном автопарке
                         </p>
                     </div>
                 </article>

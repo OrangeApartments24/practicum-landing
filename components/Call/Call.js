@@ -60,14 +60,14 @@ const Call = () => {
                 ) : (
                     <>89&nbsp;900&nbsp;₽</>
                 )}
-                , далее 990&nbsp;₽&nbsp;&mdash; в&nbsp;месяц
+                , далее 2990&nbsp;₽&nbsp;&mdash; в&nbsp;месяц
             </h2>
             <p className={styles.miniCaption}>
                 Участникам от&nbsp;RealtyCalendar&nbsp;&mdash; скидка
                 50&nbsp;процентов по&nbsp;промокоду
             </p>
             <p className={styles.caption}>
-                Осталось в этом месяце: <b>30 мест</b>
+                Осталось в этом месяце: <b>7 мест из 30</b>
             </p>
             <form onSubmit={formSubmitHandler} className={styles.form}>
                 <input

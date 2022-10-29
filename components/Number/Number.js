@@ -52,7 +52,7 @@ const Number = () => {
             <div className={styles.content}>
                 <h2 className={`heading-2 ${styles.heading}`}>
                     Мы&nbsp;&mdash; практики, открывшие за&nbsp;год собственную
-                    сеть апарт-отелей Orange Apartments&nbsp;24
+                    сеть апарт-отелей Orange Apartments&nbsp;24 *
                 </h2>
                 <div ref={ref} className={styles.counter}>
                     {renderNumber}
@@ -61,7 +61,7 @@ const Number = () => {
                 </div>
                 <div className={styles.caption}>
                     <p className={styles.captionHeading}>
-                        общая стоимость недвижимости в управлении
+                        * общая стоимость недвижимости в управлении
                     </p>
                     <p className={styles.captionDate}>
                         на {new Date().toLocaleDateString('ru-RU', dateOptions)}
