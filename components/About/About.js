@@ -21,13 +21,20 @@ const About = () => {
             <article className={styles.item}>
                 {/* <img src='/icons/search.svg' className={styles.itemIcon} /> */}
                 <h3 className={styles.itemHeading}>
-                    Для тех, кто хочет эффективный и стабильный коллектив
+                    Вы хотите запустить бизнес по краткосрочной аренде
                 </h3>
             </article>
             <article className={styles.item}>
                 {/* <img src='/icons/search.svg' className={styles.itemIcon} /> */}
                 <h3 className={styles.itemHeading}>
-                    Кто не хочет учавствовать в операционке СОВСЕМ
+                    Для тех, кто хочет построить эффективный и стабильный
+                    коллектив
+                </h3>
+            </article>
+            <article className={styles.item}>
+                {/* <img src='/icons/search.svg' className={styles.itemIcon} /> */}
+                <h3 className={styles.itemHeading}>
+                    Кто НЕ хочет учавствовать в операционке СОВСЕМ
                 </h3>
             </article>
             <article className={styles.item}>
@@ -46,19 +53,13 @@ const About = () => {
             <article className={styles.item}>
                 {/* <img src='/icons/search.svg' className={styles.itemIcon} /> */}
                 <h3 className={styles.itemHeading}>
-                    Как однодневного гостя получить постоянника
+                    Как из однодневного гостя получить постоянника
                 </h3>
             </article>
             <article className={styles.item}>
                 {/* <img src='/icons/search.svg' className={styles.itemIcon} /> */}
                 <h3 className={styles.itemHeading}>
                     Как заселять 95% апартоментов в НЕ сезон
-                </h3>
-            </article>
-            <article className={styles.item}>
-                {/* <img src='/icons/search.svg' className={styles.itemIcon} /> */}
-                <h3 className={styles.itemHeading}>
-                    Вы хотели бы запустить бизнес по краткосрочной аренде
                 </h3>
             </article>
 
@@ -72,15 +73,14 @@ const About = () => {
             <article className={styles.item}>
                 {/* <img src='/icons/business.svg' className={styles.itemIcon} /> */}
                 <h3 className={styles.itemHeading}>
-                    Хотите получить опыт других предпренимателей
+                    Сэкономить время и деньги, получая наш опыт
                 </h3>
             </article>
 
             <article className={styles.item}>
                 {/* <img src='/icons/money.svg' className={styles.itemIcon} /> */}
                 <h3 className={styles.itemHeading}>
-                    Интересуетесь оптовой закупкой расходников в&nbsp;вашем
-                    городе
+                    Совместная оптовая закупкой расходников со скидкой
                 </h3>
             </article>
         </section>

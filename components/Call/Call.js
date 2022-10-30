@@ -29,22 +29,27 @@ const Call = () => {
     const formSubmitHandler = (e) => {
         e.preventDefault();
         setState({ ...state, loading: true });
-        router.push(
-            'https://auth.robokassa.ru/Merchant/Index.aspx?MerchantLogin=orangepracticum&OutSum=29900&Description=%D0%9E%D0%BF%D0%BB%D0%B0%D1%82%D0%B0%20%D0%BA%D1%83%D1%80%D1%81%D0%B0%20Orange%20Practicum.%20%D0%A2%D0%B0%D1%80%D0%B8%D1%84%3A%20%D0%9D%D0%B0%D1%81%D1%82%D0%B0%D0%B2%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE&SignatureValue=d3979428a7bad7c566fbd726935eae82&Encoding=UTF-8&InvId=1667010261&OutSumCurrency=RUR&Shp_phone=89122354131'
-        );
-        // sendLead(state)
-        //     .then((res) => {
-        //         if (res.ok) {
-        //             return res.json();
-        //         }
-        //     })
-        //     .then((data) => {
-        //         ym(86911334, 'reachGoal', 'call__lead');
-        //         router.push('/success');
-        //     })
-        //     .catch((err) => {
-        //         console.log('Err:' + err);
-        //     });
+
+        fetch('/api/payment', {
+            method: 'POST',
+            body: JSON.stringify({
+                phone: state.phone,
+                option: {},
+                price: isPromocode ? 29900 : 59900,
+            }),
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        })
+            .then((res) => {
+                if (res.ok) {
+                    return res.json();
+                }
+                reject('Ошибка');
+            })
+            .then((data) => {
+                location.href = data.paymentLink;
+            });
     };
 
     return (
@@ -60,7 +65,8 @@ const Call = () => {
                 ) : (
                     <>89&nbsp;900&nbsp;₽</>
                 )}
-                , далее 2990&nbsp;₽&nbsp;&mdash; в&nbsp;месяц
+                , далее {isPromocode ? 2990 : 5990}&nbsp;₽&nbsp;&mdash;
+                в&nbsp;месяц
             </h2>
             <p className={styles.miniCaption}>
                 Участникам от&nbsp;RealtyCalendar&nbsp;&mdash; скидка
@@ -75,7 +81,6 @@ const Call = () => {
                     className={styles.input}
                     name='promocode'
                     placeholder='Промокод (скидка 50%)'
-                    required
                     minLength='2'
                 />
                 <input
@@ -94,17 +99,12 @@ const Call = () => {
                 >
                     {!state.loading && 'Оплатить'}
                 </button>
-                <div
-                    className={styles.personal}
-                    onClick={() => setIsPersonal(!isPersonal)}
-                >
-                    <div
-                        className={classNames(
-                            styles.personal__checkbox,
-                            isPersonal && styles.personal__checkbox_active
-                        )}
-                    ></div>
-                    <p>Индивидуальное ведение бизнеса от Дениса Соловьева</p>
+                <div className={styles.personal}>
+                    <p style={{ fontSize: '1.5em' }}>
+                        Индивидуальное ведение бизнеса от Дениса Соловьева
+                        — 88.000 ₽<br />
+                        (рассматривается индивидуально)
+                    </p>
                 </div>
             </form>
             {/* <div className={styles.gift}>

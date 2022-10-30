@@ -9,6 +9,11 @@
 .text {
     max-width: 340px;
 }
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
 
 @media screen and (max-width: 1400px) {
     .footer {

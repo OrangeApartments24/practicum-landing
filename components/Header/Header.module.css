@@ -216,18 +216,20 @@
 }
 
 @media screen and (max-width: 760px) {
+    .header {
+        background: none;
+    }
     .form {
         flex-wrap: wrap;
         justify-content: stretch;
     }
     .input {
         width: 100%;
-        z-index: -1;
+        z-index: 1;
     }
     .button {
         width: 100%;
         text-align: center;
-        z-index: -1;
     }
 }
 

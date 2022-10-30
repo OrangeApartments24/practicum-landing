@@ -56,11 +56,10 @@ const Content = () => {
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
                             Одна часовая консультация с&nbsp;Денисом Соловьевым
-                            по&nbsp;видео
                         </h3>
                         <p className={styles.itemText}>
                             (для тех,кто не&nbsp;состоит в&nbsp;чате
-                            консультации предлагаются от&nbsp;5.000₽
+                            консультации предлагаются от&nbsp;10.000₽
                             до&nbsp;30.000₽)
                         </p>
                     </div>
@@ -70,8 +69,7 @@ const Content = () => {
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
                             Получение оперативных консультаций по&nbsp;ЛЮБЫМ
-                            проблемам и&nbsp;вопросам у&nbsp;наших специалистов
-                            (неоценимо ₽)
+                            вопросам у&nbsp;наших специалистов (неоценимо ₽)
                         </h3>
                         <p className={styles.itemText}>
                             (вы&nbsp;экономите свое время и&nbsp;деньги для
@@ -83,8 +81,8 @@ const Content = () => {
                 <article className={styles.item}>
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
-                            Возможность оформления коллективных закупок
-                            Расходных материалов/Текстиля
+                            Возможность оформления коллективных закупок.
+                            Расходных материалов: текстиля
                             и&nbsp;т.д.&nbsp;по&nbsp;оптовым ценам
                         </h3>
                         <p className={styles.itemText}>
@@ -192,7 +190,8 @@ const Content = () => {
                 <article className={styles.item}>
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
-                            Вы&nbsp;можете получить бонус в&nbsp;5.000₽–10.000₽!
+                            Реферальная выплата в&nbsp;5.000₽–10.000₽ за
+                            привлечённого участника
                         </h3>
                         <p className={styles.itemText}>
                             (в&nbsp;тот&nbsp;же день вам направляется данная
@@ -204,9 +203,9 @@ const Content = () => {
                 <article className={styles.item}>
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
-                            Вы&nbsp;можете устроиться на&nbsp;работу в&nbsp;нашу
-                            компанию,и в дальнейшем взять под руководство новый
-                            город для развития
+                            Вы&nbsp;можете устроиться в&nbsp;нашу компанию,и в
+                            дальнейшем взять под руководство новый город для
+                            развития
                         </h3>
                         <p className={styles.itemText}>
                             (при должном качестве вашей работы)
@@ -217,10 +216,12 @@ const Content = () => {
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
                             Постоянно пополняющаяся база знаний в&nbsp;виде бота
-                            (все ваши вопросы и&nbsp;наши ответы сохраняются
-                            и&nbsp;все имеют быстрый доступ ко&nbsp;ВСЕЙ важной
-                            информации от&nbsp;общения)
                         </h3>
+                        <p className={styles.itemText}>
+                            (ваши вопросы и&nbsp;наши ответы сохраняются
+                            и&nbsp;вы имеете быстрый доступ ко&nbsp;ВСЕЙ важной
+                            информации)
+                        </p>
                     </div>
                 </article>
                 <article className={styles.item}>
@@ -230,7 +231,7 @@ const Content = () => {
                             нововведениям компании
                         </h3>
                         <p className={styles.itemText}>
-                            (в&nbsp;случае развития и&nbsp;сотрудничества
+                            (в&nbsp;связи с развитем сотрудничества
                             с&nbsp;другими компаниями)
                         </p>
                         <p className={styles.itemText}>

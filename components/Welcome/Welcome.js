@@ -8,7 +8,7 @@ const Welcome = () => {
                     Ваш эксперт Денис&nbsp;Соловьёв
                 </h2>
                 <p className={`text ${styles.text}`}>
-                    Многодетный отец. Бизнесмен. Инвестор.
+                    Многодетный отец. Инвестор. Предприниматель.
                 </p>
 
                 <h3
@@ -81,8 +81,8 @@ const Welcome = () => {
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>Такси «Апельсин»</h3>
                         <p className={styles.itemText}>
-                            Более 3000 машин привлечено, до 100&nbsp;&mdash; в
-                            собственном автопарке
+                            До 3000 привлечённых машин единовременно на линии,
+                            до&nbsp;100&nbsp;&mdash; в&nbsp;собственном парка
                         </p>
                     </div>
                 </article>

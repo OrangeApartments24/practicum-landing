@@ -66,7 +66,7 @@ const Header = () => {
                         Личную консультацию от Дениса Соловьева
                     </li>
                     <li className={styles.listItem}>
-                        Вся школа Orange Practicum <br />— сразу в одном месте
+                        Более 20 часов полезной практики из опыта
                     </li>
                 </ul>
             </div>
@@ -74,7 +74,6 @@ const Header = () => {
                 className={styles.form}
                 onSubmit={(e) => {
                     e.preventDefault();
-                    window.location = '#number';
                 }}
             >
                 {/* <input
@@ -95,7 +94,15 @@ const Header = () => {
                     required
                     minLength='2'
                 /> */}
-                <button className={`${styles.button}`}>Подбронее</button>
+                <button
+                    onClick={() => {
+                        console.log('hello');
+                        window.location = '#number';
+                    }}
+                    className={`${styles.button}`}
+                >
+                    Подбронее
+                </button>
             </form>
             {/* <div className={styles.caption}>
                 <a
