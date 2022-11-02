@@ -1,36 +1,20 @@
 import styles from '../styles/success.module.css';
 import { YMInitializer } from 'react-yandex-metrika';
 import { useEffect } from 'react';
+import { useRouter } from 'next/router';
 
 const Success = () => {
+    const router = useRouter();
+
     useEffect(() => {
-        !(function (f, b, e, v, n, t, s) {
-            if (f.fbq) return;
-            n = f.fbq = function () {
-                n.callMethod
-                    ? n.callMethod.apply(n, arguments)
-                    : n.queue.push(arguments);
-            };
-            if (!f._fbq) f._fbq = n;
-            n.push = n;
-            n.loaded = !0;
-            n.version = '2.0';
-            n.queue = [];
-            t = b.createElement(e);
-            t.async = !0;
-            t.src = v;
-            s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s);
-        })(
-            window,
-            document,
-            'script',
-            'https://connect.facebook.net/en_US/fbevents.js'
-        );
-        fbq('init', '435091964749684');
-        fbq('track', 'PageView');
-        fbq('track', 'Lead');
-    }, []);
+        const { OutSum, Shp_phone } = router.query;
+
+        if (!Shp_phone | !OutSum) return;
+
+        fetch(`https://api.telegram.org/bot5743349386:AAEyeRBxFWMG5asohMpOBXeAyXtSq7tTddI/sendMessage?chat_id=-1001899025139&text=
+        Пришло ${OutSum}₽ от ${Shp_phone}
+        `);
+    }, [router.query]);
 
     return (
         <>

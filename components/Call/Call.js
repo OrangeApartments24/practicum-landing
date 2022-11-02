@@ -14,6 +14,7 @@ const Call = () => {
     const router = useRouter();
     const [isPromocode, setIsPromocode] = useState(false);
     const [isPersonal, setIsPersonal] = useState(false);
+    const [oferta, setOferta] = useState(false);
 
     const inputHandler = (e) => {
         const prevState = { ...state };
@@ -65,8 +66,16 @@ const Call = () => {
                 ) : (
                     <>89&nbsp;900&nbsp;₽</>
                 )}
-                , далее {isPromocode ? 2990 : 5990}&nbsp;₽&nbsp;&mdash;
-                в&nbsp;месяц
+                , далее{' '}
+                {isPromocode ? (
+                    <>2990₽&nbsp;(99/день)</>
+                ) : (
+                    <>
+                        <br />
+                        5990₽&nbsp;(199₽/день)
+                    </>
+                )}
+                &nbsp;&nbsp;&mdash; в&nbsp;месяц
             </h2>
             <p className={styles.miniCaption}>
                 Участникам от&nbsp;RealtyCalendar&nbsp;&mdash; скидка
@@ -92,13 +101,35 @@ const Call = () => {
                     required
                     minLength='2'
                 />
-                <button
-                    className={`${styles.button} ${
-                        state.loading && styles.buttonLoading
-                    }`}
-                >
-                    {!state.loading && 'Оплатить'}
-                </button>
+                <div style={{ width: '100%' }}>
+                    <button
+                        style={{ opacity: oferta ? 1 : 0.2 }}
+                        disabled={!oferta}
+                        className={`${styles.button} ${
+                            state.loading && styles.buttonLoading
+                        }`}
+                    >
+                        {!state.loading && 'Оплатить'}
+                    </button>
+                    <div className={styles.checkbox}>
+                        <input
+                            checked={oferta}
+                            type='checkbox'
+                            id='oferta'
+                            onClick={() => setOferta(!oferta)}
+                        />
+                        <label htmlFor='oferta'>
+                            Соглашаюсь с условиями{' '}
+                            <a
+                                target='_blank'
+                                rel='noreferrer'
+                                href='/oferta.pdf'
+                            >
+                                оферты
+                            </a>
+                        </label>
+                    </div>
+                </div>
                 <div className={styles.personal}>
                     <p style={{ fontSize: '1.5em' }}>
                         Индивидуальное ведение бизнеса от Дениса Соловьева
@@ -106,6 +137,31 @@ const Call = () => {
                         (рассматривается индивидуально)
                     </p>
                 </div>
+
+                <p style={{ fontSize: '1.5em', gridColumn: '-1/1' }}>
+                    Возникли проблемы при оплате?{' '}
+                    <a
+                        href='https://t.me/nicholasitnikov'
+                        target='_blank'
+                        rel='noreferrer'
+                        style={{ color: 'black' }}
+                    >
+                        Мы поможем!
+                    </a>
+                </p>
+                <p
+                    style={{
+                        fontSize: '1em',
+                        gridColumn: '-1/1',
+                        opacity: '.5',
+                    }}
+                >
+                    В&nbsp;случае неоплаты, стоимость повторного добавления
+                    в&nbsp;чат составлет&nbsp;&mdash; 5000₽. Пользователь
+                    оплачивает добавление в&nbsp;чат и&nbsp;первые 30&nbsp;дней
+                    в&nbsp;чате, дальнейшее продление участия в&nbsp;чате
+                    оплачивается отдельно согласно тарифу.
+                </p>
             </form>
             {/* <div className={styles.gift}>
                 <span className={styles.giftCaption}>
