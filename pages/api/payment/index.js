@@ -15,7 +15,9 @@ const handler = (req, res) => {
         resultUrlRequestMethod: 'GET', // HTTP request method selected for "ResultURL" requests
     });
 
-    const invDesc = `Оплата доступна в платный чат (включая комиссию сервиса Robokassa 3%)`;
+    const invDesc = `Оплата доступа в платный чат: ${price}₽ (включая комиссию сервиса Robokassa ${
+        price * 0.03
+    }₽)`;
 
     // Optional options.
     const options = {
