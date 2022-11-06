@@ -15,8 +15,6 @@
     align-items: center;
     gap: 20px;
     grid-column: -1/1;
-    cursor: pointer;
-    user-select: none; /* Standard */
 }
 
 .personal__checkbox {

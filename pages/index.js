@@ -10,6 +10,7 @@ import Head from 'next/head';
 import { YMInitializer } from 'react-yandex-metrika';
 
 import { useEffect } from 'react';
+import Reviews from '../components/Reviews/Reviews';
 
 export default function Home() {
     useEffect(() => {
@@ -62,6 +63,7 @@ export default function Home() {
             <Welcome />
             <Content />
             <Invitement />
+            <Reviews />
             <Call />
             <Footer />
             <YMInitializer accounts={[86911334]} options={{ webvisor: true }} />
