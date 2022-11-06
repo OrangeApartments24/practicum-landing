@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react';
 import styles from './Video.module.css';
 
-const Video = ({ src }) => {
+const Video = ({ src, poster }) => {
     const videoRef = useRef();
     const [playMode, setPlayMode] = useState(false);
 
@@ -17,6 +17,7 @@ const Video = ({ src }) => {
                 ></div>
             )}
             <video
+                poster={poster}
                 className={styles.video__player}
                 ref={videoRef}
                 width={'100%'}
