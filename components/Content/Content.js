@@ -103,8 +103,9 @@ const Content = () => {
                 <article className={styles.item}>
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
-                            Приезд Дениса Соловьева лично к&nbsp;участникам и
-                            проведение консультации по&nbsp;месту
+                            Выборочный приезд Дениса Соловьева лично
+                            к&nbsp;участникам и проведение консультации
+                            по&nbsp;месту
                         </h3>
                         <p className={styles.itemText}>
                             (для тех,кто не&nbsp;состоит в&nbsp;чате этот пункт

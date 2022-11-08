@@ -89,7 +89,7 @@ const Call = () => {
                     onChange={promocodeChangeHandler}
                     className={styles.input}
                     name='promocode'
-                    placeholder='Промокод (скидка 50%)'
+                    placeholder='Промокод от RealtyCalendar (скидка 50%)'
                     minLength='2'
                 />
                 <input
@@ -97,6 +97,7 @@ const Call = () => {
                     onChange={inputHandler}
                     className={styles.input}
                     name='phone'
+                    type={'number'}
                     placeholder='Номер телефона'
                     required
                     minLength='2'
@@ -156,9 +157,9 @@ const Call = () => {
                         opacity: '.5',
                     }}
                 >
-                    Подключение к&nbsp;чату производится в&nbsp;течение
-                    24&nbsp;часов после оплаты. В&nbsp;случае неоплаты,
-                    стоимость повторного добавления в&nbsp;чат
+                    <b>Важно!</b> Подключение к&nbsp;чату производится
+                    в&nbsp;течение 24&nbsp;часов после оплаты. В&nbsp;случае
+                    неоплаты, стоимость повторного добавления в&nbsp;чат
                     составлет&nbsp;&mdash; 5000₽. Пользователь оплачивает
                     добавление в&nbsp;чат и&nbsp;первые 30&nbsp;дней
                     в&nbsp;чате, дальнейшее продление участия в&nbsp;чате

@@ -62,7 +62,7 @@ export default function Home() {
             <About />
             <Welcome />
             <Content />
-            <Invitement />
+            {/* <Invitement /> */}
             <Reviews />
             <Call />
             <Footer />

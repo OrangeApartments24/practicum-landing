@@ -4,7 +4,9 @@ import Video from './Video/Video';
 const Reviews = () => {
     return (
         <section className={styles.reviews}>
-            <h2 className={`heading-2 ${styles.heading}`}>Отзывы</h2>
+            <h2 className={`heading-2 ${styles.heading}`}>
+                Отзывы участников «Чата по делу»
+            </h2>
             <Video
                 src='/reviews/marina.mp4'
                 poster='/reviews_posters/marina.jpg'
