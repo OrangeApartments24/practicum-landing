@@ -51,6 +51,11 @@
 .miniCaption {
     font-size: 1.2em;
     margin: 0;
+    padding: 1rem;
+    border: 1px solid orange;
+    border-radius: 20px;
+    height: max-content;
+    width: fit-content;
 }
 
 .form {

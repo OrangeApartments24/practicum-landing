@@ -78,8 +78,9 @@ const Call = () => {
                 &nbsp;&nbsp;&mdash; в&nbsp;месяц
             </h2>
             <p className={styles.miniCaption}>
-                Участникам от&nbsp;RealtyCalendar&nbsp;&mdash;
-                50&nbsp;%&nbsp;скидка по&nbsp;промокоду
+                Используй промокод от&nbsp;RealtyCalendar и&nbsp;получи{' '}
+                <b>скидку 50%</b>. Стоимость входа в&nbsp;чат&nbsp;&mdash; 29
+                900₽
             </p>
             <p className={styles.caption}>
                 Осталось в этом месяце: <b>7 мест из 30</b>
@@ -89,12 +90,14 @@ const Call = () => {
                     onChange={promocodeChangeHandler}
                     className={styles.input}
                     name='promocode'
-                    placeholder='Промокод от RealtyCalendar (скидка 50%)'
+                    placeholder='Промокод от RealtyCalendar'
                     minLength='2'
                 />
                 <input
                     value={state.phone}
-                    onChange={inputHandler}
+                    onChange={(e) =>
+                        setState({ ...state, phone: parseInt(e.target.value) })
+                    }
                     className={styles.input}
                     name='phone'
                     type={'number'}

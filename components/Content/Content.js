@@ -183,7 +183,7 @@ const Content = () => {
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
                             Получение оперативной информации о&nbsp;изменениях
-                            на юридическом и&nbsp;закономательном поле, чтобы
+                            на юридическом и&nbsp;законодательном поле, чтобы
                             принять правильное решение
                         </h3>
                     </div>
