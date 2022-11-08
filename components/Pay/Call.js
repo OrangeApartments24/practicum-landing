@@ -56,7 +56,7 @@ const Pay = () => {
     return (
         <section className={styles.call} id='call'>
             <h2 className={`heading-2 ${styles.heading}`}>
-                Форма оплаты платного чата
+                Форма оплаты платного чата *
             </h2>
             <form onSubmit={formSubmitHandler} className={styles.form}>
                 <input
@@ -98,6 +98,18 @@ const Pay = () => {
                     </div>
                 </div>
             </form>
+            <span
+                style={{
+                    marginBottom: '10px',
+                    display: 'block',
+                    textAlign: 'center',
+                    opacity: 0.5,
+                    marginTop: 'auto',
+                }}
+            >
+                {' '}
+                * в стоимость входит комиссия сервиса Robokassa — 2,9%
+            </span>
         </section>
     );
 };

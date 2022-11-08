@@ -56,12 +56,12 @@ const Call = () => {
     return (
         <section className={styles.call} id='call'>
             <h2 className={`heading-2 ${styles.heading}`}>
-                Стоимость участия&nbsp;&mdash;{' '}
+                Стоимость участия*&nbsp;&mdash;{' '}
                 {!isPersonal ? (
                     isPromocode ? (
                         <>29&nbsp;900&nbsp;₽</>
                     ) : (
-                        <>59&nbsp;900&nbsp;₽</>
+                        <>60&nbsp;000&nbsp;₽</>
                     )
                 ) : (
                     <>89&nbsp;900&nbsp;₽</>
@@ -72,18 +72,19 @@ const Call = () => {
                 ) : (
                     <>
                         <br />
-                        5990₽&nbsp;(199₽/день)
+                        6000₽&nbsp;(200₽/день)
                     </>
                 )}
                 &nbsp;&nbsp;&mdash; в&nbsp;месяц
             </h2>
             <p className={styles.miniCaption}>
-                Используй промокод от&nbsp;RealtyCalendar и&nbsp;получи{' '}
-                <b>скидку 50%</b>. Стоимость входа в&nbsp;чат&nbsp;&mdash; 29
-                900₽
+                Используй промокод от&nbsp;RealtyCalendar и&nbsp;получи
+                <b>скидку&nbsp;50%</b>. Стоимость входа в&nbsp;чат&nbsp;&mdash;
+                29 900₽, и&nbsp;далее 2990₽ в&nbsp;месяц (99₽ в&nbsp;день)
             </p>
             <p className={styles.caption}>
-                Осталось в этом месяце: <b>7 мест из 30</b>
+                Осталось в этом месяце:{' '}
+                <b>7&nbsp;мест из&nbsp;30&nbsp;на&nbsp;ноябрь</b>
             </p>
             <form onSubmit={formSubmitHandler} className={styles.form}>
                 <input
@@ -160,6 +161,11 @@ const Call = () => {
                         opacity: '.5',
                     }}
                 >
+                    <span style={{ marginBottom: '10px', display: 'block' }}>
+                        {' '}
+                        * в стоимость участия и продления входит комиссия
+                        сервиса Robokassa — 2,9%
+                    </span>
                     <b>Важно!</b> Подключение к&nbsp;чату производится
                     в&nbsp;течение 24&nbsp;часов после оплаты. В&nbsp;случае
                     неоплаты, стоимость повторного добавления в&nbsp;чат
