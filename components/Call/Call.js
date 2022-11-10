@@ -84,7 +84,7 @@ const Call = () => {
             </p>
             <p className={styles.caption}>
                 Осталось в этом месяце:{' '}
-                <b>7&nbsp;мест из&nbsp;30&nbsp;на&nbsp;ноябрь</b>
+                <b>5&nbsp;мест из&nbsp;30&nbsp;на&nbsp;ноябрь</b>
             </p>
             <form onSubmit={formSubmitHandler} className={styles.form}>
                 <input
