@@ -28,7 +28,7 @@ const Content = () => {
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
                             Все участники могут приехать к&nbsp;нам
-                            на&nbsp;1&nbsp;день, прожить в&nbsp;квартире,
+                            на&nbsp;1&nbsp;день, пожить в&nbsp;квартире,
                             посмотреть работу сотрудников и&nbsp;провести
                             встречу с&nbsp;Денисом Соловьевым
                             <p className={styles.itemText}>
@@ -41,13 +41,13 @@ const Content = () => {
                 <article className={styles.item}>
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
-                            Ваши квартиры будут на&nbsp;нашем сайте,с Вашим
+                            Ваши квартиры будут на&nbsp;нашем сайте, с Вашим
                             номером телефона
                         </h3>
                         <p className={styles.itemText}>
                             (сделать такой сайт самостоятельно стоит порядка
                             200.000-500.000₽ и&nbsp;поддерживать ежемесячно
-                            10-50.000₽)
+                            10.000-50.000₽)
                         </p>
                     </div>
                 </article>
@@ -69,11 +69,12 @@ const Content = () => {
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
                             Получение оперативных консультаций по&nbsp;ЛЮБЫМ
-                            вопросам у&nbsp;наших специалистов (неоценимо ₽)
+                            вопросам у&nbsp;наших специалистов
+                            (неоценимо&nbsp;₽)
                         </h3>
                         <p className={styles.itemText}>
                             (вы&nbsp;экономите свое время и&nbsp;деньги для
-                            решения проблемы)
+                            решения проблем)
                         </p>
                     </div>
                 </article>
@@ -86,8 +87,8 @@ const Content = () => {
                             и&nbsp;т.д.&nbsp;по&nbsp;оптовым ценам
                         </h3>
                         <p className={styles.itemText}>
-                            Скидки от&nbsp;20&nbsp;до&nbsp;30%
-                            в&nbsp;зависимости от&nbsp;объёма
+                            (Скидки от&nbsp;20&nbsp;до&nbsp;30%
+                            в&nbsp;зависимости от&nbsp;объёма)
                         </p>
                     </div>
                 </article>
@@ -120,9 +121,9 @@ const Content = () => {
                             инвестиций в&nbsp;приложение и&nbsp;долевое участие
                         </h3>
                         <p className={styles.itemText}>
-                            От&nbsp;22&nbsp;до&nbsp;50% годовых,
+                            (От&nbsp;22&nbsp;до&nbsp;50% годовых,
                             в&nbsp;зависимости от&nbsp;выбранного направления
-                            инвестирования
+                            инвестирования)
                         </p>
                     </div>
                 </article>
@@ -149,7 +150,7 @@ const Content = () => {
                         <h3 className={styles.itemHeading}>
                             Показ и&nbsp;рассказ о&nbsp;таблицах
                             и&nbsp;программах,которые использует команда для
-                            оперативной и&nbsp;удобно работы
+                            оперативной и&nbsp;удобной работы
                         </h3>
                     </div>
                 </article>
@@ -158,13 +159,13 @@ const Content = () => {
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
                             Поиск квартир в&nbsp;субаренду
-                            (от&nbsp;300&nbsp;участиков чата) нашим выделенным
+                            (от&nbsp;300&nbsp;участников чата) нашим выделенным
                             сотрудником в&nbsp;вашем городе
                         </h3>
                         <p className={styles.itemText}>
                             (Вам останется только подписать договор с
                             собственником при приезде,принять ключи
-                            и&nbsp;вы&nbsp;уже можете сдавать квартиру!.
+                            и&nbsp;вы&nbsp;уже можете сдавать квартиру!
                             Вы&nbsp;экономите комиссию риелтора по&nbsp;каждой
                             найденной квартире!)
                         </p>
@@ -182,8 +183,8 @@ const Content = () => {
                 <article className={styles.item}>
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
-                            Получение оперативной информации о&nbsp;изменениях
-                            на юридическом и&nbsp;законодательном поле, чтобы
+                            Получение оперативной информации об&nbsp;изменениях
+                            в юридическом и&nbsp;законодательном поле, чтобы
                             принять правильное решение
                         </h3>
                     </div>
@@ -196,15 +197,15 @@ const Content = () => {
                         </h3>
                         <p className={styles.itemText}>
                             (в&nbsp;тот&nbsp;же день вам направляется данная
-                            сумма) если вы&nbsp;пригласите нового
-                            заинтересованного участника в данный чат
+                            сумма, если вы&nbsp;пригласите нового
+                            заинтересованного участника в чат)
                         </p>
                     </div>
                 </article>
                 <article className={styles.item}>
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
-                            Вы&nbsp;можете устроиться в&nbsp;нашу компанию,и в
+                            Вы&nbsp;можете устроиться в&nbsp;нашу компанию, и в
                             дальнейшем взять под руководство новый город для
                             развития
                         </h3>

@@ -82,7 +82,7 @@ const Welcome = () => {
                         <h3 className={styles.itemHeading}>Такси «Апельсин»</h3>
                         <p className={styles.itemText}>
                             До 3000 привлечённых машин единовременно на линии,
-                            до&nbsp;100&nbsp;&mdash; в&nbsp;собственном парка
+                            до&nbsp;100&nbsp;&mdash; в&nbsp;собственном парке
                         </p>
                     </div>
                 </article>
@@ -91,11 +91,11 @@ const Welcome = () => {
                     <img src='/icons/sushi.svg' className={styles.itemIcon} />
                     <div className={styles.itemContent}>
                         <h3 className={styles.itemHeading}>
-                            Доставка пиццы и суши «Покенон»
+                            Доставка пиццы и суши «Покемон»
                         </h3>
                         <p className={styles.itemText}>
                             присутствие в&nbsp;15&nbsp;городах и&nbsp;населённых
-                            пунктов Подмосковья
+                            пунктах Подмосковья
                         </p>
                     </div>
                 </article>

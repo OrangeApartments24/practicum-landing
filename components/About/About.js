@@ -34,14 +34,14 @@ const About = () => {
             <article className={styles.item}>
                 {/* <img src='/icons/search.svg' className={styles.itemIcon} /> */}
                 <h3 className={styles.itemHeading}>
-                    Кто НЕ хочет учавствовать в операционке СОВСЕМ
+                    Кто НЕ хочет участвовать в операционной деятельности СОВСЕМ
                 </h3>
             </article>
             <article className={styles.item}>
                 {/* <img src='/icons/search.svg' className={styles.itemIcon} /> */}
                 <h3 className={styles.itemHeading}>
                     Вы&nbsp;уже запустили бизнес, но&nbsp;столкнулись
-                    с&nbsp;проблемой масштабирования?
+                    с&nbsp;проблемой масштабирования
                 </h3>
             </article>
             <article className={styles.item}>
@@ -53,13 +53,13 @@ const About = () => {
             <article className={styles.item}>
                 {/* <img src='/icons/search.svg' className={styles.itemIcon} /> */}
                 <h3 className={styles.itemHeading}>
-                    Как из однодневного гостя получить постоянника
+                    Как из однодневного гостя получить постоянного
                 </h3>
             </article>
             <article className={styles.item}>
                 {/* <img src='/icons/search.svg' className={styles.itemIcon} /> */}
                 <h3 className={styles.itemHeading}>
-                    Как заселять 95% апартоментов в НЕ сезон
+                    Как заселять 95% апартаментов в НЕ сезон
                 </h3>
             </article>
 
@@ -80,7 +80,7 @@ const About = () => {
             <article className={styles.item}>
                 {/* <img src='/icons/money.svg' className={styles.itemIcon} /> */}
                 <h3 className={styles.itemHeading}>
-                    Совместная оптовая закупкой расходников со скидкой
+                    Совместная оптовая закупка расходников со скидкой
                 </h3>
             </article>
         </section>

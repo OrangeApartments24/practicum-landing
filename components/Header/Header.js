@@ -46,8 +46,8 @@ const Header = () => {
             </ul> */}
             <div className={styles.content}>
                 <h1 className={`heading-1 ${styles.heading}`}>
-                    Присоединитесь к&nbsp;сообществу профессионалов в&nbsp;сфере
-                    краткосрочной аренды
+                    Присоединяйтесь к&nbsp;сообществу профессионалов
+                    в&nbsp;сфере краткосрочной аренды
                     <span className='heading-1-light'>
                         {' '}
                         и&nbsp;увеличьте свой доход уже через месяц
@@ -59,7 +59,7 @@ const Header = () => {
                         Поддержку и советы от эксперта и его команды
                     </li>
                     <li className={styles.listItem}>
-                        Решение как построить бизнес без участия в операционной
+                        Решение, как построить бизнес без участия в операционной
                         деятельности
                     </li>
                     <li className={styles.listItem}>
@@ -101,7 +101,7 @@ const Header = () => {
                     }}
                     className={`${styles.button}`}
                 >
-                    Подбронее
+                    Подробнее
                 </button>
             </form>
             {/* <div className={styles.caption}>
