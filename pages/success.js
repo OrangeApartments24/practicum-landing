@@ -6,15 +6,15 @@ import { useRouter } from 'next/router';
 const Success = () => {
     const router = useRouter();
 
-    useEffect(() => {
-        const { OutSum, Shp_phone } = router.query;
+//     useEffect(() => {
+//         const { OutSum, Shp_phone } = router.query;
 
-        if (!Shp_phone | !OutSum) return;
+//         if (!Shp_phone | !OutSum) return;
 
-        fetch(`https://api.telegram.org/bot5743349386:AAEyeRBxFWMG5asohMpOBXeAyXtSq7tTddI/sendMessage?chat_id=-1001899025139&text=
-        Пришло ${OutSum}₽ от ${Shp_phone}
-        `);
-    }, [router.query]);
+//         fetch(`https://api.telegram.org/bot5743349386:AAEyeRBxFWMG5asohMpOBXeAyXtSq7tTddI/sendMessage?chat_id=-1001899025139&text=
+//         Пришло ${OutSum}₽ от ${Shp_phone}
+//         `);
+//     }, [router.query]);
 
     return (
         <>
